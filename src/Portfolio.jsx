@@ -36,7 +36,24 @@ const PROJECTS = [
     stack: ["FastAPI", "PostgreSQL", "Python", "REST APIs"],
     github: "https://github.com/aarushhii30",
     accent: "#F3A683",
-  },
+  },      {
+  title: "Invoice MS",
+  subtitle: "Invoice Management System",
+  description:
+    "A backend system for managing invoice creation, tracking, and payment status with clean REST APIs and efficient data handling.",
+  stack: ["Node.js", "Express.js", "MongoDB", "REST APIs"],
+  github: "https://github.com/aarushhii30",
+  accent: "#FFB347",
+},
+  {
+  title: "AI Medical Code",
+  subtitle: "Medical Code Suggestion System",
+  description:
+    "An AI-powered system for predicting medical codes from clinical text. Contributed by working on ML model handling and developing the frontend interface for user interaction.",
+  stack: ["Python", "FastAPI", "Machine Learning", "Frontend"],
+  github: "https://github.com/aarushhii30",
+  accent: "#6A5ACD",
+},
 ];
 
 function useInView(threshold = 0.15) {
@@ -284,7 +301,7 @@ export default function Portfolio() {
           </FadeIn>
           <FadeIn delay={0.15}>
   <a 
-    href="https://drive.google.com/uc?export=download&id=1nQAByLUXzIuO-phME6_EVQLmuUkuTUfa"
+    href="https://drive.google.com/file/d/13kUAd2rN96-59NOQz8rvy0t971FKkuwx/view?usp=sharing"
     target="_blank"
     rel="noopener noreferrer"
     className="btn-primary"
