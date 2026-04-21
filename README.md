@@ -17,5 +17,4 @@ A personal portfolio website built using React.
 npm install
 npm start
 
-## Live Demo
-(Add Vercel link here)
+
