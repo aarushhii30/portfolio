@@ -361,7 +361,7 @@ export default function Portfolio() {
                     [{copied ? "COPIED" : "CLICK TO COPY"}]
                   </span>
                 </button>
-                <a href="/Aarushi_Sharma_Resume.pdf" download
+               <a href="/Aarushi_sharma_resume_superset.pdf" download
                   style={{
                     display: "inline-block", background: "var(--accent)", color: "var(--bg)",
                     padding: "14px 24px", fontSize: 11, fontWeight: 700,
