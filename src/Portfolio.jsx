@@ -73,14 +73,14 @@ const Reveal = ({ children, delay = 0 }) => {
 
 // ============ Data ============
 const PROJECTS = [
-  { n: "01", name: "EdLearning", desc: "Adaptive learning platform with real-time assessment tracking and progress analytics.", tags: ["React", "Node.js", "MongoDB"], url: "https://github.com/aarushi-sharma" },
-  { n: "02", name: "SplitEase", desc: "Smart expense-splitting app for groups with real-time settlement logic.", tags: ["React Native", "Firebase"], url: "https://github.com/aarushi-sharma" },
-  { n: "03", name: "O2C System", desc: "Order-to-Cash automation pipeline handling enterprise invoice workflows.", tags: ["Java", "Spring", "Oracle"], url: "https://github.com/aarushi-sharma" },
-  { n: "04", name: "Hospital MS", desc: "Hospital management system with patient records, billing, and pharmacy modules.", tags: ["PHP", "MySQL", "Bootstrap"], url: "https://github.com/aarushi-sharma" },
-  { n: "05", name: "Invoice Manager", desc: "End-to-end invoice generation, tracking, and tax-ready reporting platform.", tags: ["Next.js", "PostgreSQL"], url: "https://github.com/aarushi-sharma" },
-  { n: "06", name: "NAMASTE", desc: "Cultural wellness platform blending yoga, ayurveda, and community sessions.", tags: ["React", "Express", "MongoDB"], url: "https://github.com/aarushi-sharma" },
-  { n: "07", name: "AI Shopping Agent", desc: "LLM-powered conversational assistant for personalized product discovery.", tags: ["Python", "OpenAI", "LangChain"], url: "https://github.com/aarushi-sharma" },
-  { n: "08", name: "TaskFlow", desc: "Kanban-style productivity suite with team workflows and CI hooks.", tags: ["React", "TypeScript"], url: "https://github.com/aarushi-sharma" },
+  { n: "01", name: "EdLearning", desc: "Adaptive learning platform with real-time assessment tracking and progress analytics.", tags: ["React", "Node.js", "MongoDB"], url: "https://github.com/aarushhii30" },
+  { n: "02", name: "SplitEase", desc: "Smart expense-splitting app for groups with real-time settlement logic.", tags: ["React Native", "Firebase"], url: "https://github.com/aarushhii30" },
+  { n: "03", name: "O2C System", desc: "Order-to-Cash automation pipeline handling enterprise invoice workflows.", tags: ["Java", "Spring", "Oracle"], url: "https://github.com/aarushhii30" },
+  { n: "04", name: "Hospital MS", desc: "Hospital management system with patient records, billing, and pharmacy modules.", tags: ["PHP", "MySQL", "Bootstrap"], url: "https://github.com/aarushhii30" },
+  { n: "05", name: "Invoice Manager", desc: "End-to-end invoice generation, tracking, and tax-ready reporting platform.", tags: ["Next.js", "PostgreSQL"], url: "https://github.com/aarushhii30" },
+  { n: "06", name: "NAMASTE", desc: "Cultural wellness platform blending yoga, ayurveda, and community sessions.", tags: ["React", "Express", "MongoDB"], url: "https://github.com/aarushhii30" },
+  { n: "07", name: "AI Shopping Agent", desc: "LLM-powered conversational assistant for personalized product discovery.", tags: ["Python", "OpenAI", "LangChain"], url: "https://github.com/aarushhii30" },
+  { n: "08", name: "TaskFlow", desc: "Kanban-style productivity suite with team workflows and CI hooks.", tags: ["React", "TypeScript"], url: "https://github.com/aarushhii30" },
 ];
 
 const STATS = [
@@ -372,16 +372,43 @@ export default function Portfolio() {
                   onMouseOut={e => e.currentTarget.style.filter = "none"}>
                   Download Manifest (.PDF) ↓
                 </a>
-                <div style={{ display: "flex", gap: 24, marginTop: 16 }}>
-                  {["GitHub", "LinkedIn", "Twitter"].map(s => (
-                    <a key={s} href="#" style={{
-                      fontSize: 11, letterSpacing: "0.15em", textTransform: "uppercase",
-                      borderBottom: "1px solid var(--border)", paddingBottom: 4, transition: "border-color 0.2s",
-                    }}
-                    onMouseOver={e => e.currentTarget.style.borderColor = "var(--accent)"}
-                    onMouseOut={e => e.currentTarget.style.borderColor = "var(--border)"}>{s} →</a>
-                  ))}
-                </div>
+               <div style={{ display: "flex", gap: 24, marginTop: 16 }}>
+  <a
+    href="https://github.com/aarushhii30"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{
+      fontSize: 11,
+      letterSpacing: "0.15em",
+      textTransform: "uppercase",
+      borderBottom: "1px solid var(--border)",
+      paddingBottom: 4,
+      transition: "border-color 0.2s",
+    }}
+    onMouseOver={e => e.currentTarget.style.borderColor = "var(--accent)"}
+    onMouseOut={e => e.currentTarget.style.borderColor = "var(--border)"}
+  >
+    GitHub →
+  </a>
+
+  <a
+    href="https://linkedin.com/in/aarushhiisharma"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{
+      fontSize: 11,
+      letterSpacing: "0.15em",
+      textTransform: "uppercase",
+      borderBottom: "1px solid var(--border)",
+      paddingBottom: 4,
+      transition: "border-color 0.2s",
+    }}
+    onMouseOver={e => e.currentTarget.style.borderColor = "var(--accent)"}
+    onMouseOut={e => e.currentTarget.style.borderColor = "var(--border)"}
+  >
+    LinkedIn →
+  </a>
+</div>
               </div>
             </div>
           </Reveal>
